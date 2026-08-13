@@ -431,6 +431,29 @@ body {
   text-decoration: underline;
 }
 
+.simple-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.simple-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.simple-year {
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+
+.simple-meta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
 .pub-award {
   display: inline-block;
   font-size: 0.75rem;
@@ -519,6 +542,8 @@ body {
   padding-left: 1.1rem;
   color: var(--text-secondary);
   font-size: 0.875rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0;
 }
 
 .exp-bullets li {
