@@ -437,21 +437,66 @@ body {
   margin: 0;
 }
 
-.simple-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
-}
-
-.simple-year {
-  flex-shrink: 0;
-  color: var(--text-muted);
-}
-
 .simple-meta {
   font-size: 0.82rem;
   color: var(--text-muted);
+}
+
+/* Experience items */
+.exp-item {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+
+.exp-item:last-child {
+  border-bottom: none;
+}
+
+.exp-item:hover {
+  border-left-color: var(--primary);
+  background: #f0f7ff;
+}
+
+.exp-item .pub-title {
+  color: var(--primary);
+}
+
+/* Awards / Service rows */
+.award-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+
+.award-row:last-child {
+  border-bottom: none;
+}
+
+.award-row:hover {
+  background: var(--bg-light);
+}
+
+.award-badge {
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 4px;
+  padding: 0.1rem 0.45rem;
+  margin-left: 0.75rem;
 }
 
 .pub-award {
