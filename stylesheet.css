@@ -505,7 +505,14 @@ body {
   font-size: 0.875rem;
   color: var(--primary);
   font-weight: 500;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.exp-mentors {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 0.6rem;
 }
 
 .exp-bullets {
