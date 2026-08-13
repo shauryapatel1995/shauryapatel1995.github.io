@@ -398,78 +398,37 @@ body {
   gap: 1.25rem;
 }
 
-.pub-card {
-  background: white;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 1.5rem;
-  transition: var(--transition);
-  border-left: 4px solid var(--primary);
+.pub-list {
+  list-style: decimal;
+  padding-left: 1.4rem;
+  margin: 0;
 }
 
-.pub-card:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-2px);
+.pub-item {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
 }
 
-.pub-venue-badge {
-  display: inline-block;
-  background: var(--primary);
-  color: white;
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
-  margin-bottom: 0.75rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+.pub-item:last-child {
+  border-bottom: none;
 }
 
 .pub-title {
-  font-size: 1rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin-bottom: 0.5rem;
-  line-height: 1.45;
 }
 
-.pub-authors {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-  margin-bottom: 0.3rem;
-}
-
-.pub-venue {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  font-style: italic;
-  margin-bottom: 0.85rem;
-}
-
-.pub-links {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.pub-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.78rem;
+.pub-title-link {
   font-weight: 600;
   color: var(--primary);
   text-decoration: none;
-  padding: 0.25rem 0.65rem;
-  border: 1.5px solid var(--primary);
-  border-radius: 4px;
-  transition: var(--transition);
-  letter-spacing: 0.02em;
 }
 
-.pub-link:hover {
-  background: var(--primary);
-  color: white;
-  text-decoration: none;
+.pub-title-link:hover {
+  text-decoration: underline;
 }
 
 /* ============================================================
