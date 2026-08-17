@@ -431,6 +431,29 @@ body {
   text-decoration: underline;
 }
 
+.pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 4px;
+  padding: 0.1rem 0.5rem;
+  margin-top: 0.35rem;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.pdf-btn:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+  text-decoration: none;
+}
+
 .simple-list {
   list-style: none;
   padding-left: 0;
